@@ -1,0 +1,48 @@
+/* Navigation */
+html{
+    scroll-behavior: smooth;
+}
+/* Home Section */
+#home{
+padding: 3px 28px;
+}
+
+#home p{
+    font-size: 25px;
+}
+#home::before{
+    height: 915px;
+}
+
+/* about Section */
+#about{
+ flex-direction: column;
+}
+.about::before{
+    height: 1120px;
+   }
+
+#about .card{
+ padding: 14px;
+ margin: 2px 0px;
+ margin-bottom: 5px;
+}
+
+/* Contact section */
+#contact-box form{
+    width: 80%;
+}
+#contact::before{
+    height: 920px;
+}
+
+/* Utility Classes */
+
+.h-primary{
+    font-size: 26px;
+    }
+    
+    .btn{
+        font-size: 13px;
+        padding: 4px 8px;
+    }
